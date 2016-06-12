@@ -1,9 +1,17 @@
-h1 {
-    color: blue;
+body{
+	background: #fafafa;
+margin:0;
 }
-h2 {
-	color: green;
+
+.header{
+	background: #1b39ab;
+	height: 70px;
 }
-body {
-	color:red;
+
+.wrapper{
+	height: 400px;
+	width: 500px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+	background: #fff;
+	margin: 10px auto;
 }
