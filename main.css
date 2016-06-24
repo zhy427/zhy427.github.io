@@ -1,17 +1,53 @@
+/*common.css */
+.clearfix:before, .clearfix:after{
+	content:" ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+*{
+	box-sizing: border-box;
+}
+
 body{
 	background: #fafafa;
-margin:0;
+	margin: 0;
+	font: 17px/1.7 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+    color: #555;
+ }
+
+img{
+		border:none;
 }
 
 .header{
 	background: #1b39ab;
 	height: 70px;
 }
-
 .wrapper{
-	height:700px;
-	width: 960px;
+	width: 800px;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.4);
 	background: #fff;
 	margin: 10px auto;
+	padding: 30px;
+
+
+}
+
+/*blog post*/
+.post-title {
+	font-weight: normal;
+	color: #0066ff;
+	text-align: center;
+	margin:10px 0;
+}
+
+.post-img{
+	max-width: 100%;
+	display: block;
+	margin: 30px auto;
+
 }
